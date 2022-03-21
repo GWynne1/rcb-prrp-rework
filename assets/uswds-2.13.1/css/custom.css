@@ -1,0 +1,19 @@
+/* Fix accessibility requirement */
+div.usa-banner__inner div.grid-col-fill p.usa-banner__header-text, div.grid-col-auto p.usa-footer__logo-heading, p.usa-form__note, fieldset.usa-fieldset p {
+    line-height: 1.5;
+}
+
+/* Fix accessibility requirement */
+.usa-breadcrumb:not(.usa-breadcrumb--wrap) .usa-breadcrumb__list{
+    overflow:visible;
+}
+
+/* Fix accessibility requirement */
+p.text-base{
+    color:#393c3e;
+}
+
+/* Reduce font weight of footer links */
+li.usa-footer__primary-content a.usa-footer__primary-link {
+    font-weight:400;
+}
